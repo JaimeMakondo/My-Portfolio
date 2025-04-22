@@ -24,6 +24,14 @@ a:hover {
 
 /* Header */
 /* NAVBAR STYLING */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
